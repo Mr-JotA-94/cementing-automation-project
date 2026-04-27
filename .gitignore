@@ -1,0 +1,20 @@
+# Credentials — NEVER commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Raw data (reproducible via simulation, can be large)
+02_staging/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter (if you open any notebooks)
+.ipynb_checkpoints/
+
+# Power BI binary (optional — large file, not version-control friendly)
+*.pbix
