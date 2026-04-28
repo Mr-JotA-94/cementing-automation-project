@@ -8,6 +8,8 @@ __pycache__/
 
 # Raw data (reproducible via simulation, can be large)
 02_staging/
+07_output/*
+!07_output/export.py
 
 # OS
 .DS_Store
@@ -18,3 +20,4 @@ Thumbs.db
 
 # Power BI binary (optional — large file, not version-control friendly)
 *.pbix
+
