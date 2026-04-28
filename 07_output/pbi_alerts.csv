@@ -1,0 +1,20 @@
+job_id,timestamp,alert_type,severity,sensor_value,threshold_value,stage,description
+JOB-004,2024-01-02 07:45:00,npt_pause,critical,20.0,0.0,idle,Unplanned operational pause: 20 minutes of idle detected after pumping started
+JOB-004,2024-01-02 08:30:00,stuck_sensor,warning,2649.32,8.0,pumping,Sensor repeated same value for 18 consecutive readings starting at 2024-01-02 08:30:00
+JOB-006,2024-01-02 22:39:00,stuck_sensor,warning,2220.82,8.0,pumping,Sensor repeated same value for 17 consecutive readings starting at 2024-01-02 22:39:00
+JOB-007,2024-01-03 03:57:00,pressure_spike,critical,4545.83,4500.0,displacement,Pressure 4546 psi exceeds absolute maximum 4500 psi
+JOB-007,2024-01-03 03:58:00,pressure_spike,critical,4820.34,4500.0,displacement,Pressure 4820 psi exceeds absolute maximum 4500 psi
+JOB-007,2024-01-03 03:59:00,pressure_spike,critical,4932.48,4500.0,displacement,Pressure 4932 psi exceeds absolute maximum 4500 psi
+JOB-007,2024-01-03 04:00:00,pressure_spike,critical,4698.27,4500.0,displacement,Pressure 4698 psi exceeds absolute maximum 4500 psi
+JOB-009,2024-01-03 17:11:00,flow_dropout,warning,0.1276,0.5,pumping,Flow rate 0.128 bpm below minimum active threshold 0.5 bpm
+JOB-009,2024-01-03 17:12:00,flow_dropout,warning,0.1418,0.5,pumping,Flow rate 0.142 bpm below minimum active threshold 0.5 bpm
+JOB-009,2024-01-03 17:13:00,flow_dropout,warning,0.114,0.5,pumping,Flow rate 0.114 bpm below minimum active threshold 0.5 bpm
+JOB-009,2024-01-03 17:14:00,flow_dropout,warning,0.126,0.5,pumping,Flow rate 0.126 bpm below minimum active threshold 0.5 bpm
+JOB-009,2024-01-03 17:15:00,flow_dropout,warning,0.1059,0.5,pumping,Flow rate 0.106 bpm below minimum active threshold 0.5 bpm
+JOB-009,2024-01-03 17:26:00,npt_pause,critical,19.0,0.0,idle,Unplanned operational pause: 19 minutes of idle detected after pumping started
+JOB-009,2024-01-03 17:27:00,stuck_sensor,warning,53.07,8.0,idle,Sensor repeated same value for 10 consecutive readings starting at 2024-01-03 17:27:00
+JOB-010,2024-01-04 01:05:00,pressure_spike,critical,4563.42,4500.0,displacement,Pressure 4563 psi exceeds absolute maximum 4500 psi
+JOB-010,2024-01-04 01:07:00,pressure_spike,critical,4979.97,4500.0,displacement,Pressure 4980 psi exceeds absolute maximum 4500 psi
+JOB-010,2024-01-04 01:08:00,pressure_spike,critical,4728.31,4500.0,displacement,Pressure 4728 psi exceeds absolute maximum 4500 psi
+JOB-010,2024-01-04 01:10:00,pressure_spike,critical,4623.53,4500.0,displacement,Pressure 4624 psi exceeds absolute maximum 4500 psi
+JOB-010,2024-01-04 01:11:00,pressure_spike,critical,4552.15,4500.0,displacement,Pressure 4552 psi exceeds absolute maximum 4500 psi
