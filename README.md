@@ -223,6 +223,6 @@ Ground truth labels from simulation make this straightforward to validate.
 
 ## Author
 
-Jorge Lopez
+Johan Lopez
 Data Analyst | Oil & Gas Operations
 [LinkedIn](https://linkedin.com) · [GitHub](https://github.com/Mr-JotA-94)
